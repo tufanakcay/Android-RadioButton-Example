@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_baseline_image_24" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/rd_Btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image 1"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rd_Btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image 2"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rd_Btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image 3"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rd_Btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image 4"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>
